@@ -1,0 +1,99 @@
+
+.container{
+    position: relative;
+  
+  color:rgb(255, 0, 0);
+  nav-right: 7000px;
+  text-align: right;
+  height:320px
+}
+.centerd{
+    position:absolute;
+    right:250px;
+    bottom: 50px;
+    z-index: 2;
+    font-size:18px;
+    font-family: sans-serif;
+}
+    .mtn{
+        display:block;
+    }
+    
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    }
+  
+  #navi{
+    width: calc(100% - 40px);
+    padding: 20px;
+    display: inline-flex;
+    flex: 1 0 15%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: stretch;
+    background-color: grey;
+
+  }
+  
+  #navi a{
+    color: cyan;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  form{
+    float: left;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  #main{
+    margin: 20px;
+    padding: 10px;
+    width: calc(50% - 60px);
+    float: left;
+    background-color: #ffaf4c;
+     }
+  
+  #emailBox{
+    position: relative;
+    background-color: #ffaf4c;
+    width: 100%;
+    height: 100px;
+    clear: both;
+  }
+  
+  .special {
+    background-color: #ff6090;
+    width: 150px;
+    color: white;
+    padding: 30px;
+    margin-left: -20px;
+  }
+  
+  .mtn {
+    float: right;
+    width: calc(50% - 60px);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .email{
+    width: calc(80% - 60px);
+    height: 150px;
+    margin: auto;
+    vertical-align: center;
+    margin-top: -20px;
+  }
+  
+  #noDisplay{
+    display:none;
+    margin: 100px 0px 20px 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
